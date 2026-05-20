@@ -9,6 +9,44 @@ st.html("""
 @import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
 
 /* =========================
+   TÍTULO PRINCIPAL
+   Ex.: "comversor de orrtografias"
+   ========================= */
+
+h1 {
+    font-family: 'Underdog', sans-serif !important;
+    font-size: 48px !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+
+/* =========================
+   SUBTÍTULOS COM SETA
+   Ex.: "ofisiau → cucagrafia"
+        "cucagrafia → ofisiau"
+   ========================= */
+
+h2, h3 {
+    font-family: 'Underdog', sans-serif !important;
+    font-size: 30px !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+
+/* =========================
+   TEXTO ABAIXO DO TÍTULO
+   Ex.: "comverte da orrtografia..."
+   ========================= */
+
+div[data-testid="stMarkdownContainer"] p {
+    font-family: 'Underdog', sans-serif !important;
+    font-size: 20px !important;
+    color: #ffffff !important;
+}
+
+/* =========================
    TEXTO GERAL DO APP
    ========================= */
 
@@ -36,7 +74,7 @@ div.stButton > button {
     font-family: 'Underdog', sans-serif;
     font-size: 20px !important;
     color: #ffffff !important;
-    background-color: #f2c94c !important;
+    background-color: #000000 !important;
     border: 2px solid #f2c94c !important;
     border-radius: 10px !important;
     padding: 0.65em 1.1em !important;
@@ -71,7 +109,7 @@ textarea {
 textarea:disabled {
     font-family: 'Underdog', sans-serif !important;
     font-size: 22px !important;
-    color: #ffffff !important;
+    color: #e40032 !important;
     -webkit-text-fill-color: #f8f1d8 !important;
     opacity: 1 !important;
     background-color: #24242e !important;
